@@ -1,0 +1,152 @@
+* {
+    font-family:Arial, Helvetica, sans-serif
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+
+ul {
+    font-size: 18px;
+    color: #F9FAF8;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.container1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.container1 h1,p {
+    color: #F9FAF8;
+}
+
+.item1 {
+    
+    word-wrap: break-word;
+}
+
+.container1 h1 {
+    font-weight: bolder;
+    font-size: 48px;
+    margin: 10px;
+    align-items: center;
+    width: 500px;
+}
+
+.container1 p {
+    font-size: 18px;
+    word-break: break-all;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.container-button {
+    background-color: #3882F6;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 10%;
+    margin-left: 20px ;
+}
+
+.heading1 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 25px;
+    flex-wrap: wrap;
+}
+
+.container3 p {
+    color: #1F2937;
+    width: 200px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
+
+.container4 {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin: 10px;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 30px;
+    text-align: end;
+    font-weight: 900;
+}
+
+.container5 {
+    color: #F9FAF8;
+    padding: 100px;
+    
+
+}
+
+.container6 {
+    background-color: #3882F6;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+
+}
+
+.item7 p {
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.call-to-action {
+    background-color: transparent;
+    padding: 5px;
+    padding-inline: 20px;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+}
+
+.item8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container7 {
+    background-color: #1F2937;
+    padding: 40px;
+    text-align: center;
+}
